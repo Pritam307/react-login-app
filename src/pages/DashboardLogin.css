@@ -1,0 +1,130 @@
+.bg-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1470px) {
+  .bg-icon {
+    display: none;
+  }
+}
+.rectangle {
+  border: none;
+  background: transparent;
+  width: 100%;
+  height: 2.81rem;
+}
+.user-icon {
+  margin-top: 0.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  overflow: hidden;
+}
+.username {
+  position: absolute;
+  left: 0;
+  min-width: 22.45rem;
+  top: 10.56rem;
+  height: 2.81rem;
+  font-size: 0.88rem;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+}
+
+.password {
+  position: absolute;
+  top: 14rem;
+  min-width: 22.45rem;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  height: 2.81rem;
+}
+.rectangle1 {
+  border: none;
+  background: transparent;
+  width: 19.8rem;
+  height: 2.81rem;
+}
+.login-btn {
+  border-radius: var(--br-9xs);
+  width: 100%;
+  height: 2.81rem;
+  color: var(--color-royalblue);
+}
+.forgot-password {
+  position: absolute;
+  top: 23.63rem;
+  left: 9.63rem;
+  font-weight: 500;
+}
+.group-icon {
+  height: 25.44%;
+  width: 41.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.dashboard-login {
+  position: relative;
+  background-color: var(--color-royalblue);
+  width: 100%;
+  height: 108vh;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  /* border-style: solid; */
+}
+input {
+  color: white;
+  text-align: left;
+}
+.password.input {
+  font-size: 20rem;
+}
+#usernameCol {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  margin-top: 3rem;
+}
+#passwordCol {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  margin-top: 1rem;
+}
+#usernameCol.row.col,
+#passwordCol.row.col {
+  padding: 0;
+  margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.container-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center !important;
+  align-content: center !important;
+  padding: 0;
+  /* border-style: solid; */
+  /* height: auto !important; */
+}
+#Box {
+  padding: "0";
+  margin-top: 15rem;
+  display: inline-block;
+}
+#LoginCol {
+  margin-top: 3rem;
+  padding: 0;
+}
+#forgotText {
+  margin-top: 10px;
+}
